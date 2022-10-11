@@ -1,0 +1,72 @@
+
+
+
+.sidebar
+{
+	width:20%;
+	background:whitesmoke;
+	height:100%;
+	position:fixed;
+	padding-top:45px;
+	z-index:9999;
+	
+}
+.sidebar a
+{
+	display:block;
+	width:100%;
+	padding:10px 35px;
+	text-decoration:none;
+	color:grey;
+	
+}
+.sidebar a:hover
+{
+	background:#e2e2e2;
+	
+}
+.sidebar .divider
+{
+	height:.5px;
+	width:100%;
+	background:#e2e2e2;
+}
+@media only screen and (max-width:700px)
+{
+   .sidebar
+    {
+	display:none;
+	
+	width:80% !important;
+	background:whitesmoke;
+	height:100%;
+	position:fixed;
+	padding-top:20px;
+	
+   }
+ .content
+ {
+ margin-left:0% !important;
+ }	
+}
+
+
+.content
+{
+    margin-left:20%;
+ 
+ 
+    	
+}
+.sidebar .crossBtn
+{
+	position:absolute;
+	 top:0px;
+	 right:35px;
+	 font-size:30px;
+	 cursor:pointer;
+}
+i
+{
+	cursor:pointer;
+}
