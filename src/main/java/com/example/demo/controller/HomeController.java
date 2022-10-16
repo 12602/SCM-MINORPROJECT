@@ -53,7 +53,7 @@ public class HomeController {
 	public String about(Model m)
 	{
 		m.addAttribute("title","this is about page");
-		return "about";
+		return "teampage";
 	}
 	@GetMapping("/signup")
 	public String signup(Model m)

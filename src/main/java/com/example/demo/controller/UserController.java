@@ -60,6 +60,12 @@ public class UserController {
     	m.addAttribute("title","User Dashboard");
 		return "normal/user_dashboard";
 	}
+    @RequestMapping("/")
+  	public String dashboard2(Model m,Principal principal)
+  	{
+      	m.addAttribute("title","User Dashboard");
+  		return "normal/user_dashboard";
+  	}
     
     
      //add or open add contact form 
